@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Rubik+Spray+Paint&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://jsgame.bbz.cloud/scripts/v1/keyboard.js"></script>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/timer.js"></script>
+    <script src="https://jsgame.bbz.cloud/scripts/v1/collision.js"></script>
+    <script src="script.js" defer></script>
+  </head>
+
+  <body>
+    <div class="playground">
+      <img class="player" src="img/liam.png" />
+      <div class="box">
+        <p class="flappybird">Flappy Bird</p>
+        <div class="ninjabox">
+          <button
+            type="button"
+            name="button"
+            class="button navbaritem"
+            onclick="window.location.reload();"
+          >
+            <img class="restart" src="img/restart.png" alt="Redo" />
+          </button>
+          <p class="punkte">0</p>
+        </div>
+      </div>
+      <div id="welcomediv">
+        <button id="welcometoggle"></button>
+      </div>
+    </div>
+  </body>
+</html>

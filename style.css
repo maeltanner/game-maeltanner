@@ -1,0 +1,79 @@
+html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.player {
+  position: absolute;
+
+  width: 60px;
+
+  height: 40px;
+}
+.stein {
+  position: absolute;
+  width: 40px;
+  height: 20px;
+  background-color: rgb(12, 133, 14);
+}
+.playground {
+  width: 2000px;
+  height: 730px;
+
+  background-image: url(img/Flat_Game_Background_1.jpg);
+  background-size: contain;
+}
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+.player {
+  margin-left: 120px;
+}
+.button {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(0, 0, 0, 0);
+  border-color: rgb(0, 0, 0, 0);
+}
+.restart {
+  height: 60px;
+  width: 60px;
+  z-index: 0;
+}
+.punkte {
+  font-size: 60px;
+  font-family: "Rubik Spray Paint";
+  text-align: right;
+}
+.box {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-width: 400px;
+  min-height: 750px;
+  background-color: white;
+  z-index: 1000;
+  margin-left: 1140px;
+}
+.ninjabox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+#welcomediv {
+  z-index: -111;
+  color: rgb(0, 0, 0, 0, 0);
+}
+.flappybird {
+  font-size: 60px;
+  font-family: "Rubik Spray Paint";
+  text-align: center;
+}
